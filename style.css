@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(104, 21, 188);
+}
+
+label {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+}
+
+.mainbody {
+  border: 1px solid gray;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  padding: 20px;
+  margin-top: 20vh;
+  background-color: rgb(202, 201, 201);
+}
+
+.errorcontrol.error {
+  border-color: red;
+  color: red;
+}
+
+.heading {
+  text-align: center;
+}
+
+.reset {
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: #8032ff;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+.submit {
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  background-color: #8032ff;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+.inputbox {
+  height: 50px;
+  width: 350px;
+  font-size: 18px;
+}
+
+.input-container {
+  align-items: center;
+}
+
+.ph-eye {
+  font-size: 25px;
+  margin-left: 5px;
+  cursor: pointer;
+}

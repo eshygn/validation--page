@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+
+
+
+</head>
+
+<body>
+    <div class=mainbody>
+        <h2 class="heading" style="font-size: 40px;">Form Validation</h2>
+        <form name="myForm" id="form" action="">
+            <div class="errorcontrol">
+                <label for="fname"><b>First Name</b></label> <br>
+                <input class="inputbox" type="text" id="fname" placeholder="Input first name" name="fname"> <div class="error"></div><br>
+                <div class="error"></div>
+            </div>
+
+            <div class="errorcontrol">
+                <label for="lname" class="lname"><b>Last Name</b></label><br>
+                <input class="inputbox" type="text" id="lname" placeholder="Input last name" name="lname"><div class="error"></div><br>
+                <div class="error"></div>
+
+            </div>
+
+            <div class="errorcontrol"><label for="age"><b>Age</b></label><br>
+                <input class="inputbox" type="text" id="age" placeholder="Input age" name="age"><div class="error"></div><br>
+            </div>
+
+            <div class="errorcontrol"><label for="number"><b>Phone Number</b></label><br>
+                <input class="inputbox" type="text" id="number" placeholder="Input phone number" name="number"><div class="error"></div><br>
+            </div>
+
+            <div class="errorcontrol">
+    <label for="password"><b>Password</b></label><br>
+    
+        <input class="inputbox" type="password" id="password" name="password" maxlength="20" placeholder="Enter password">
+        <i class="ph ph-eye" id="show-password"></i><div class="error"></div>
+    <div class="errorcontrol"></div> 
+    
+    <br>
+</div>
+
+            <div>
+                <label for="Title"><b>Title:</b></label><br>
+
+                <label for="Mr">Mr.</label>
+                <input type="radio" id="Mr" name="title">
+
+                <label for="Mrs">Mrs.</label>
+                <input type="radio" id="Mrs" name="title">
+
+                <label for="Dr">Dr.</label>
+                <input type="radio" id="Dr" name="title">
+                <div class="error"></div>
+            </div>
+
+
+
+            <div class="reset-container"><button type="reset" class="reset" value="Reset"> Reset </button></div>
+            <!-- <button type="submit" value="Submit" onclick="validateForm()"> Submit </button> -->
+
+            <div class="submit-container" ><input class="submit" type="submit" value="Submit"> </input></div>
+
+    </div>
+    </form>
+
+    <script src="/script.js" type="text/javascript">
+    </script>
+    
+
+
+</body>
+
+</html>
